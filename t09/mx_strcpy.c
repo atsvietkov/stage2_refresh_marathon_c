@@ -7,13 +7,11 @@ char *mx_strcpy(char *dst, const char *src) {
     return dst;
 }
 
-/*
-#include <stdio.h>
-int main() {
-    char str1[] = "Hello World! .;";
-    char str2[15];
-    mx_strcpy(str2, str1);
+// #include <stdio.h>
+// int main() {
+//     char str1[] = "Hello World! .;";
+//     char str2[15];
+//     mx_strcpy(str2, str1);
 
-    printf("%s", str2);
-}
-*/
+//     printf("%s", str2);
+// }

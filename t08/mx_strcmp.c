@@ -8,24 +8,22 @@ int mx_strcmp(const char *s1, const char *s2) {
     return s1[i] - s2[i];
 }
 
-/*
-#include <stdio.h>
-#include <string.h>
-int main() {
-    char str1[] = "AAAAA";
-    char str2[] = "AAA";
-    char str3[] = "AAAAa";
-    char str4[] = "";
+// #include <stdio.h>
+// #include <string.h>
+// int main() {
+//     char str1[] = "AAAAA";
+//     char str2[] = "AAA";
+//     char str3[] = "AAAAa";
+//     char str4[] = "";
 
-    printf("%i %i\n", strcmp(str1, str2), mx_strcmp(str1, str2));
-    printf("%i %i\n", strcmp(str1, str3), mx_strcmp(str1, str3));
-    printf("%i %i\n", strcmp(str1, str4), mx_strcmp(str1, str4));
+//     printf("%i %i\n", strcmp(str1, str2), mx_strcmp(str1, str2));
+//     printf("%i %i\n", strcmp(str1, str3), mx_strcmp(str1, str3));
+//     printf("%i %i\n", strcmp(str1, str4), mx_strcmp(str1, str4));
 
-    printf("%i %i\n", strcmp(str2, str3), mx_strcmp(str2, str3));
-    printf("%i %i\n", strcmp(str2, str3), mx_strcmp(str2, str3));
+//     printf("%i %i\n", strcmp(str2, str3), mx_strcmp(str2, str3));
+//     printf("%i %i\n", strcmp(str2, str3), mx_strcmp(str2, str3));
 
-    printf("%i %i\n", strcmp(str3, str4), mx_strcmp(str3, str4));
+//     printf("%i %i\n", strcmp(str3, str4), mx_strcmp(str3, str4));
 
-    printf("%i %i\n", strcmp(str3, str3), mx_strcmp(str3, str3));
-}
-*/
+//     printf("%i %i\n", strcmp(str3, str3), mx_strcmp(str3, str3));
+// }
